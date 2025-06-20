@@ -32,7 +32,7 @@ void print_arrow(){
   int size=5;
   
   print_triangle(lcol,size);
-  print_square(lcol+size,size/2);
+  print_square(lcol+size-2,size);
 }
   
 
